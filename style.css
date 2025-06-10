@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Jakarta, sans-serif;
+    background: #f2f7f8;
+    color: #3d4f60;
+    font-size: 16px;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: #3d4f60;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+    transition: 3s ease-in-out;
+
+}
+a:hover {
+    color: #0c1825;
+}
+img {
+    margin-left: 100px;
+}
+.fa {
+    margin-left: -5px;
+    font-size: 18px;
+    color: #3d4f60;
+}
+.auth-buttons {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    margin-right: 60px;
+}
+.btn1 {
+    padding: 10px;
+    font-size: 17px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid;
+    color: #0c1825;
+    transition: 2s ease-in-out;
+}
+.btn2 {
+    background-color: #0c1825;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    font-size: 17px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: blue;
+    color: white;
+}
+.btn2:hover {
+    background-color: blue;
+}
