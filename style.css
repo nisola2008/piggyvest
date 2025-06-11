@@ -12,10 +12,12 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
+    height: 80px;
 }
 .logo {
     display: flex;
     justify-content: space-evenly;
+    
 }
 ul {
     display: flex;
@@ -79,4 +81,107 @@ img {
 }
 .btn2:hover {
     background-color: blue;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+}
+.icon {
+    display: flex;
+    color: white;
+    width: 400px;
+    margin-left: 60px;
+    font-size: 18px;
+    height: auto;
+   
+    padding: 2px;
+    font-weight: 500;
+}
+.icon p {
+    background-color: #0e86f7;
+     border-radius: 80px;
+     font-weight: 700;
+     cursor: pointer;
+     transition: 3s ease-in-out;
+}
+.icon p:hover {
+    background-color: blue;
+}
+.icon i {
+    margin: 10px;
+}
+.icon i:nth-child(1) {
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.invest h1 {
+    text-align: center;
+    color: #0c1825;
+    font-size: 49px;
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.invest p {
+    width: 500px;
+    font-size: 26px;
+    margin-left: 50px;
+    
+}
+.img2 {
+    display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+  margin-left: 50px;
+}
+.img2 img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    transition: transform 1s ease, background-color 0.3s ease;
+    background-color: transparent;
+    opacity: 0.8;
+}
+.img2 img:hover {
+    transform: translateY(-10px);
+    opacity: 1;
+}
+.img {
+    position: relative;
+    animation: move-up 4s infinite;
+}
+.img:hover {
+    animation-play-state: paused;
+}
+@keyframes move-up {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.key {
+    height: 500%;
+    padding: 50px;
+    display: flex;
 }
