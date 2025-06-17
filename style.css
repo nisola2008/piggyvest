@@ -12,7 +12,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
-    height: 80px;
+    height: 90px;
 }
 .logo {
     display: flex;
@@ -43,8 +43,8 @@ a:hover {
 img {
     margin-left: 100px;
 }
-.fa {
-    margin-left: -5px;
+ul .fa {
+    margin-left: -10px;
     font-size: 18px;
     color: #3d4f60;
 }
@@ -181,7 +181,133 @@ img {
     }
 }
 .key {
-    height: 500%;
-    padding: 50px;
     display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+    align-items: center;
+    
+}
+.del {
+    padding-right: 400px;
+    width: 2000px;
+}
+.del h1 {
+    color: #0c1825 !important;
+    font-size: 25px;
+}
+.del p {
+    line-height: 1.6;
+    font-size: 16.5px;
+}
+.del a {
+    text-decoration: none;
+    color: #0c1825;
+    font-weight: 400;
+    position: relative;
+}
+.del a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 60%;
+    width: 0;
+    height: 10px;
+    background-color: rgba(100, 149, 237, 0.4);
+    transition: width 0.3s;
+}
+.del a:hover::after {
+    width: 100%;
+}
+.ways {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: #0c1825;
+}
+.ways h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+.ways p {
+    font-size: 23px;
+}
+.block-section {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.block {
+    position: relative;
+    background-color: white;
+    width: auto;
+    padding: 30px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #eee;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    animation: bgchange 12s infinite;
+}
+.block h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #0e86f7;
+}
+.block-section h1:nth-child(1) {
+    color: blue;
+}
+.block p {
+    font-size: 1.7rem;
+    width: 400px;
+    flex-grow: 1;
+}
+.buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    align-items: flex-end;
+}
+.buttom a {
+    text-decoration: none;
+    color: #3d4f60;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+
+}
+
+.buttom img {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    opacity: 0;
+    animation: slide 4s ease-in-out infinite forwards;
+    animation-duration: 6s;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+        
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    80% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0.4;
+    }
 }
