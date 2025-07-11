@@ -87,7 +87,13 @@ ul .fa {
     color: #0c1825;
     transition: 2s ease-in-out;
     font-weight: 600;
+    cursor: pointer;
 
+}
+.ehn {
+    position: relative;
+    right: 10px;
+    bottom: 6px;
 }
 .btn2 {
     background-color: #0c1825;
@@ -298,15 +304,32 @@ ul .fa {
     height: 400px;
     overflow: hidden;
     position: relative;
-    animation: bgchange 12s infinite;
+    animation-iteration-count: infinite;
     box-shadow: 0px 4px 4px whitesmoke;
     line-height: 1.4;
+    cursor: pointer;
+    
     
 }
+.block:hover img {
+    opacity: 1;
+    transform: translate(0, 0) !important;
+    animation: none !important;
+}
+.block:hover {
+    animation: none !important;
+    color: white;
+}
+
 .block h1 {
     font-size: 2.3rem;
     margin-bottom: -10px;
-    color: #0e86f7;
+    color: blue;
+}
+.block:hover h1,
+.block:hover p,
+.block:hover a {
+    color: white !important;
 }
 .block p {
     font-size: 18px;
@@ -324,7 +347,7 @@ ul .fa {
     color: #3d4f60;
     font-weight: 500;
     position: relative;
-    bottom: 50px;
+    bottom: 40px;
     white-space: nowrap;
     align-self: flex-end;
     margin-top: auto;
@@ -332,18 +355,41 @@ ul .fa {
     
 
 }
+.block:nth-of-type(5) a {
+    position: relative;
+    bottom: 20px;
+}
+.block:nth-of-type(6) a {
+    position: relative;
+    bottom: 20px;
+}
 .buttom img {
     width: 250px;
     height: 250px;
     margin-left: 200px;
-    opacity: 0;
-    transform: translateX(60px, 60px);
+    opacity: 1;
     animation-duration: 8s;
     animation-timing-function: ease-in-out;
     position: relative;
     animation-iteration-count: infinite;
-    bottom: 10px;
-    right: 60px;   
+    bottom: -10px;
+    right: 80px;
+}
+.block:nth-of-type(5) img {
+    height: 250px;
+    position: relative;
+    bottom: -30px !important;
+}
+.block:nth-of-type(3) img {
+    height: 250px;
+    position: relative;
+    right: 100px;
+}
+.block:nth-of-type(6) img {
+    height: 250px;
+    position: relative;
+    bottom: -30px !important;
+    right: 100px;
 }
 .block:nth-of-type(1) img {
     animation-name: slide1;
@@ -355,6 +401,7 @@ ul .fa {
 }
 .block:nth-child(3) img {
     animation-name: slide3;
+
 }
 .block:nth-child(4) img {
     animation-name: slide4;
@@ -365,9 +412,202 @@ ul .fa {
 .block:nth-child(6) img {
     animation-name: slide6;
 }
-.block:nth-child(1) {
-    animation: bg1 7s infinite;
+.block:nth-of-type(1) {
+    animation: block1color 8s infinite;
 }
+.block:nth-of-type(1) h1 {
+    animation: block1 8s infinite;
+}
+.block:nth-of-type(1) a {
+    animation: blocka 8s infinite;
+    
+}
+.block:nth-of-type(1):hover {
+    background-color: blue !important;
+    
+}
+.block:nth-of-type(2) {
+    animation: block2color 8s infinite;
+}
+.block:nth-of-type(2) h1 {
+    animation: block2 8s infinite;
+}
+.block:nth-of-type(2) a {
+    animation: blockb 8s infinite;
+}
+.block:nth-of-type(2):hover {
+    background-color:  rgb(93, 195, 230) !important;
+}
+.block:nth-of-type(3) {
+    animation: block3color 8s infinite;
+}
+.block:nth-child(3):hover {
+    background-color: rgb(8, 102, 16);
+}
+.block:nth-of-type(3) h1 {
+    animation: block3 8s infinite;
+}
+.block:nth-of-type(3) a {
+    animation: blockc 8s infinite;
+}
+.block:nth-of-type(4) {
+    animation: block4color 8s infinite;
+}
+.block:nth-of-type(4) h1 {
+    animation: block4 8s infinite;
+}
+.block:nth-of-type(4):hover {
+    background-color: #da249a;
+}
+.block:nth-of-type(4) a {
+    animation: blockd 8s infinite;
+}
+.block:nth-of-type(5) {
+    animation: block5color 8s infinite;
+}
+.block:nth-of-type(5) h1 {
+    animation: block5 8s infinite;
+}
+.block:nth-of-type(5) a {
+    animation: blocke 8s infinite;
+}
+.block:nth-of-type(5):hover {
+    background-color: #090a0b;
+}
+.block:nth-of-type(6) {
+    animation: block6color 8s infinite;
+}
+.block:nth-of-type(6) h1 {
+    animation: block6 8s infinite;
+}
+.block:nth-of-type(6) a {
+    animation: blockf 8s infinite;
+}
+.block:nth-of-type(6):hover {
+    background-color: orangered;
+}
+@keyframes block1color {
+    0%, 4%, 16%, 100% {
+        background-color: white;
+        color: #3d4f60;
+    }
+    5%, 15% {
+        background-color: blue;
+        color: white;
+    }
+}
+@keyframes block1 {
+    5%, 15% {
+        color: white;
+    }
+}
+@keyframes blocka {
+    5%, 15% {
+        color: white;
+    }
+}
+    @keyframes block2color {
+    0%, 24%, 36%, 100% {
+        background-color: white;
+        color: #3d4f60;
+    
+    }
+    25%, 35% {
+        background-color: rgb(93, 195, 230);
+        color: white;
+    }
+}
+    @keyframes block2 {
+    25%, 35% {
+        color: white;
+    }
+}
+@keyframes blockb {
+    25%, 35% {
+        color: white;
+    }
+}
+@keyframes block3color {
+    0%, 44%, 56%, 100% {
+        background-color: white;
+        color: #3d4f60;
+    }
+    45%, 55% {
+        background-color: rgb(8, 102, 16);
+        color: white;
+    }
+}
+@keyframes block3 {
+    45%, 50% {
+        color: white;
+    }
+}
+@keyframes blockc {
+    45%, 50% {
+        color: white;
+    }
+}
+@keyframes block4color {
+    0%, 64%, 76%, 100% {
+        background-color: white;
+        color: #3d4f60;
+    }
+    65%, 75% {
+        background-color: #da249a;
+        color: white;
+    }
+}
+@keyframes block4 {
+    65%, 75% {
+        color: white;
+    }
+}
+@keyframes blockd {
+    65%, 75% {
+        color: white;
+    }
+}
+@keyframes block5color {
+    0%, 84%, 96%, 100% {
+        background-color: white;
+        color: #3d4f60;
+    }
+    85%, 95% {
+        background-color: #090a0b;
+        color: white;
+    }
+}
+@keyframes block5 {
+    85%, 85% {
+        color: white;
+    }
+}
+@keyframes blocke {
+    85%, 95% {
+        color: white;
+    }
+}
+@keyframes block6color {
+    0%, 94% {
+        background-color: white;
+        color: #3d4f60;
+    }
+    95%, 100% {
+        background-color: orangered;
+        color: white;
+    }
+}
+@keyframes block6 {
+    95%, 100% {
+        color: white;
+    }
+}
+@keyframes blockf {
+    95%, 100% {
+        color: white;
+    }
+}
+
 @keyframes slide1 {
   0% {
     opacity: 0;
@@ -580,6 +820,9 @@ ul .fa {
     text-align: left;
     margin-left: 30px;
     top: 40px;
+    width: 180px;
+    text-decoration: none;
+    
 }
 .div a::after {
     content: "";
@@ -592,7 +835,7 @@ ul .fa {
     transition: width 0.3s;
 }
 .div a:hover::after {
-    width: 50%;
+    width: 100%;
 }
 .month {
     display: block;
@@ -760,7 +1003,9 @@ iframe {
     letter-spacing: -1px;
     text-align: left;
     margin-right: 40px;
-    line-height: 1.9;
+    line-height: 2.7;
+    justify-content: center;
+
     
 
     
@@ -790,10 +1035,16 @@ iframe {
     height: 100px;
     width: 150px;
     margin-top: 20px;
-}
+} 
+.media {
+    position: relative;
+    right: -85px;
+} 
 .media i {
     transition: transform 1s ease;
+    color: #0c1825;
     opacity: 0.8;
+    margin-right: 20px;
 }
 .media i:hover {
     transform: translateY(-10%);
@@ -815,15 +1066,18 @@ iframe {
     display: block;
     font-size: 14px;
     margin-left: 110px;
-    opacity: 0.8;
+    opacity: 0.7;
     margin-top: 20px;
+    text-decoration: none;
+    color:  #0c1825;
 
 }
 .number {
     display: block;
     width: 200px;
     margin-top: 20px;
-    margin-left: 30px;
+    position: relative;
+    left: 25px;
 }
 .address a:hover {
     color: blue;
