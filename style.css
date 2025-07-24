@@ -2,9 +2,10 @@ body {
     padding: 0;
     margin: 0;
     font-family: Jakarta, sans-serif;
-    background: #f2f7f8;
     color: #3d4f60;
     font-size: 16px;
+    overflow-x: hidden;
+    background-color: #f2f7f8;
 }
 .header {
     position: fixed;
@@ -111,10 +112,12 @@ ul .fa {
 }
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 150px;
     padding: 20px;
     text-align: center;
+    max-width: 2500px;
+    gap: 60px;
 }
 .icon {
     display: flex;
@@ -123,8 +126,7 @@ ul .fa {
     margin-left: 60px;
     font-size: 18px;
     height: auto;
-   
-    padding: 2px;
+     padding: 2px;
     font-weight: 500;
 }
 .icon p {
@@ -200,6 +202,7 @@ ul .fa {
    color: white;
    font-size: 15px;
    font-weight: 600;
+
    }
 .immg i {
     margin-right: 10px;
@@ -210,10 +213,12 @@ ul .fa {
 .immg:hover {
     transform: translateY(-10px);
     opacity: 1;
+    cursor: pointer;
 }
 .img {
     position: relative;
     animation: move-up 4s infinite;
+    left: 50px;
 }
 .img:hover {
     animation-play-state: paused;
@@ -235,7 +240,8 @@ ul .fa {
     padding: 30px;
     gap: 20px;
     align-items: center;
-    
+    max-width: 1850px;
+    margin: 0 auto;
 }
 .del {
     padding-right: 400px;
@@ -740,6 +746,7 @@ ul .fa {
     margin: auto;
     position: relative;
     padding-bottom: 250px;
+    max-width: 2950px;
 }
 .diverse {
     display: block;
@@ -778,9 +785,11 @@ ul .fa {
      position: relative;
      height: 100% !important;
      margin-top: 90px;
-     width: 1000px;
+     max-width: 1550px;
      margin-left: 70px;
+     margin: 90px auto;
 }
+.di
 .div {
     display: flex;
     flex-direction: column;
@@ -842,7 +851,8 @@ ul .fa {
     text-align: center;
     background:  #f2f7f8;
     padding: 100px;
-    margin: 50px;
+    margin: 10px;
+    margin-top: -70px;
 }
 .meet {
     line-height: 0.4;
@@ -870,6 +880,10 @@ iframe {
     margin-top: 100px;
     gap: 40px;
     flex-wrap: wrap;
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: #f2f7f8;
+    padding-bottom: 20px;
 }
 .promo-content {
     width: 500px;
@@ -947,7 +961,8 @@ iframe {
     flex-wrap: wrap;
     gap: 12px;
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 2400px;
+    margin: 0 auto;
     margin-right: 70px;
     
 }
@@ -957,7 +972,7 @@ iframe {
 }
 .company {
     text-align: center;
-    padding: 50px 20px;
+     padding: 20px 20px;
     background-color: white;
 }
 .comp-img img:last-child {
@@ -973,14 +988,16 @@ iframe {
     flex-direction: row;
     position: relative;
     padding-bottom: 10px;
-    
+    max-width: 2700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 90px;
 }
 .footer-link {
     display: flex;
     text-align: center;
     margin-top: -20px;
     gap: -15px;
-
 }
 .footer-link a {
     text-decoration: none;
@@ -1109,6 +1126,7 @@ iframe {
     cursor: pointer;
     display: none;
 }
+
 
 
 
