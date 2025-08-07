@@ -1,0 +1,129 @@
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    margin: 0;
+    text-align: center;
+  }
+  .header {
+    height: 18vh;
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;  
+    background-color: red;
+  }
+  .logo img {
+    width: 500px;
+    margin-left: -360px;
+    margin-top: 40px;
+  }
+  ul {
+    display: none;
+  }
+  .icons {
+    display: block;
+    margin-top: 45px;
+    font-size: 4.6rem;
+  }
+  .main {
+    margin-top: 500px;
+    display: block;
+  }
+  .icon {
+    width: 100% !important;
+  }
+  .icon p {
+    font-size: 3rem;
+    white-space: nowrap;
+    padding: 30px;
+  }
+  .icon i:nth-child(1) {
+    margin-right: 20px;
+  }
+  .invest {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+  }
+  .span7 {
+    font-size: 7.5rem;
+    white-space: nowrap;
+  }
+  .span1 {
+    font-size: 7.5rem;
+    white-space: nowrap;
+    justify-content: center;
+    margin-left: 110px !important;
+  }
+  .invest p {
+    text-align: center;
+    margin: auto;
+  }
+  .span4 {
+    font-size: 3rem;
+    white-space: nowrap;
+    margin-left: 25px;
+  }
+  .span2 {
+    font-size: 3rem;
+    white-space: nowrap;
+  }
+  .span3 {
+    font-size: 3rem;
+    white-space: nowrap;
+    margin-left: 200px;
+}
+.img2 {
+  width: 100%;
+  text-align: center;
+  margin: 80px;
+  padding: 0 40px;
+  gap: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.immg i {
+  font-size: 3.8rem;
+}
+.immg a {
+  font-size: 3.8rem;
+  white-space: nowrap;
+  margin-left: -120px;
+  font-weight: lighter;
+  padding: 40px !important;
+  border-radius: 25px !important;
+}
+.main img {
+  margin-top: 60px;
+  height: auto;
+  width: 100vh;
+  margin-left: -70px;
+}
+.key {
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+}
+.key img {
+      width: 300px;
+      margin-right: -300px;
+}
+.del {
+  width: 50%;
+  text-align: center;
+}
+.del h1 {
+  width: 100%;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 6rem;
+  white-space: nowrap;
+}
+.roty {
+  display: block;
+  margin-left: 280px;
+}
+}
