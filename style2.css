@@ -14,10 +14,13 @@
     width: 100%;  
     background-color: red;
   }
+  .logo {
+    justify-content: flex-start;
+    padding: 30px;
+  }
   .logo img {
-    width: 500px;
-    margin-left: -360px;
-    margin-top: 40px;
+    margin-top: 45px;
+    width: 50vw;
   }
   ul {
     display: none;
@@ -25,7 +28,7 @@
   .icons {
     display: block;
     margin-top: 45px;
-    font-size: 4.6rem;
+    font-size: 10vw;
   }
   .main {
     margin-top: 500px;
