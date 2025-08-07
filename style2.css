@@ -1,34 +1,10 @@
-@media (max-width: 600px) {
+@media(max-width: 600px) {
   body {
     margin: 0;
     padding: 0;
   }
-  .logo {
-    margin: 0;
-    text-align: center;
-  }
   .header {
-    height: 18vh;
-    margin-left: 0;
-    padding-left: 0;
-    width: 100%;  
-    background-color: red;
-  }
-  .logo {
-    justify-content: flex-start;
-    padding: 10px;
-    gap: 10px;
-  }
-  .logo img {
-    margin-top: 45px;
-    width: 50vw;
-  }
-  ul {
-    display: none;
-  }
-  .icons {
-    display: block;
-    margin-top: 45px;
-    font-size: 10vw;
+    background-color: #f2f7f8;
+    height: auto;
   }
 }
