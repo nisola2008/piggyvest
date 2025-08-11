@@ -325,13 +325,7 @@
   flex-direction: column;
   width: 100%;
 }
-.diver2 {
-  display: block;
-  width: 100%;
-}
-.div  {
-  width: 100%;
-}
+
 .diverse h1 {
   font-size: 15vw;
   white-space: nowrap;
@@ -339,13 +333,34 @@
   display: flex;
 }
 .diverse p {
-  font-size: 8vw;
-  display: flex;
-  text-align: center;
-  width: 100%;
-  white-space: nowrap;
+font-size: 11vw; 
+line-height: 1.5; 
+width: 100%;
 }
 .grot {
-  
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.grot1 {
+  display: flex;
+justify-content: center;
+white-space: nowrap;
+}
+.diver2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: -36% !important;
+}
+.div  {
+  width: 100%;
+  max-width: 100%;
+}
+.div h1 {
+  font-size: 14vw;
+  display: inline-block;
+  white-space: nowrap;
 }
 }
