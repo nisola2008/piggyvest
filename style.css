@@ -795,6 +795,7 @@ ul .fa {
      max-width: 1550px;
      margin-left: 70px;
      margin: 90px auto;
+     gap: -20px;
 }
 .div {
     display: flex;

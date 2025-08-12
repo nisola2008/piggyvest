@@ -351,16 +351,114 @@ white-space: nowrap;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   margin-left: -36% !important;
+  max-width: 100%;
+  width: 100%;
+  padding: 220px;
+  box-sizing: content-box;
+  border-radius: 70px;
+  height: 1400px !important;
 }
 .div  {
   width: 100%;
   max-width: 100%;
+  display: block;
 }
 .div h1 {
-  font-size: 14vw;
-  display: inline-block;
+  font-size: 17.5vw;
+  width: 100%;
   white-space: nowrap;
+  text-align: center;
+  position: relative;
+  right: 100px;
+  top: -90px;
+  
+
+}
+.div p {
+   font-size: 10vw;
+   width: 155%;
+   margin-left: -25%;
+   text-align: center;
+}
+.up {
+  display: block;
+  position: relative;
+  left: 70px;
+}
+.div a {
+  font-size: 8vw;
+  position: relative;
+  top: -40px;
+
+}
+.div-img img {
+  width: 800px;
+  height: 800px;
+  position: relative;
+  bottom: -35px;
+  right: 50px;
+}
+.month {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+.meet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+.meet h1 {
+  max-width: 100%;
+  width: 100%;
+  line-height: 1.4;
+  justify-content: center;
+  display: block;
+  align-self: center;
+  font-size: 14.4vw;
+  white-space: nowrap;
+  text-align: center;
+}
+.mtn {
+  display: flex !important;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  left: 100px;
+}
+.meet p {
+  width: 170%;
+  padding: 0;
+  margin: 0;
+  margin-left: -80px;
+  padding: 10px;
+  font-size: 8.3vw;
+  font-weight: lighter;
+  line-height: 1.8;
+}
+iframe {
+    margin-top: 100px;
+    border: 20px solid white;
+    border-radius: 40px;
+    height: 1200px;
+    width: 1000px;
+    margin-left: -65px;
+}
+.promo-section {
+  display: flex !important;
+  width: 100%;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f7f8;
+  padding: 80px;
+  margin-top: -60px !important;
+}
+.avatars {
+  display: none;
 }
 }
