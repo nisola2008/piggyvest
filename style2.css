@@ -457,8 +457,52 @@ iframe {
   background-color: #f2f7f8;
   padding: 80px;
   margin-top: -60px !important;
+  margin-bottom: 50px;
 }
 .avatars {
   display: none;
+}
+.promo-section h1 {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  width: 180%;
+  margin-left: -40px;
+  padding: 20px;
+  font-size: 14.8vw;
+}
+.app-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+.app-buttons img {
+  width: 500px !important;
+  height: auto;
+  margin-left: 50%;
+}
+.app-buttons a:nth-child(2) {
+  transform: translateX(10%);
+  margin-top: -40px;
+}
+.testimonial-card img {
+  margin-left: 5px;
+  width: 160%;
+  height: auto;
+}
+.company {
+  width: 180%;
+  background-color: white;
+  height: auto;
+}
+.comp h1 {
+  font-size: 10vw;
+  margin-top: 30%;
+}
+.comp-img {
+  display: flex;
+  flex-direction: column;
 }
 }
