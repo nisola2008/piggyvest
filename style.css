@@ -26,6 +26,7 @@ body {
 .logo img {
     font-size: 1rem;
     font-weight: 100;
+    width: auto;
 }
 ul {
     display: flex;
