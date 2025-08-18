@@ -190,7 +190,6 @@ ul .fa {
     margin: 0;
     padding: 0;
     transition: transform 1s ease, background-color 0.3s ease;
-    background-color: transparent;
     opacity: 0.9;
     background-color:  #0a1c30;
     padding: 20px;
@@ -202,7 +201,6 @@ ul .fa {
    font-size: 15px;
    font-weight: 600;
     color: white;
-   
     width: 140px;
     letter-spacing: -1px;
     margin-top: 90px !important;

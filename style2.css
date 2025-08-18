@@ -67,4 +67,92 @@
         text-align: center;
         line-height: 1.8;
     }
+    .img2 {
+        margin-left: 0;
+        width: auto;
+        height: auto;
+        max-width: 95%;
+        gap: 0;
+    }
+    .immg {
+        display: block;
+        width: 20%;
+        margin-top: -30px;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    .immg i {
+        font-size: 15px;
+        position: relative;
+        right: 0;
+    }
+    .immg a {
+        font-size: 12px;
+        width: auto;
+        white-space: nowrap;
+    }
+    .img img {
+        margin-left: 0;
+        margin: 0;
+        display: block;
+        width: 48% !important;
+        height: auto;
+        position: relative;
+        left: -48px;
+        margin-top: 40px;
+    }
+    .key {
+     display: block;
+     margin-top: 50px;
+    }
+    .key1 img {
+        display: block;
+        width: 13%;
+        position: relative;
+        right: 20px;
+    }
+    .del {
+        max-width: 300px;
+        padding-right: 0;
+        margin-top: 40px;
+
+    }
+    .del h1 {
+        position: relative;
+        right: 35px;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        
+    }
+    .del p {
+        width: 270px;
+        font-size: 14.2px;
+        text-align: center;
+        margin-left: -20px;
+    }
+    .del a {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .ways {
+        max-width: 100%;
+        display: block;
+    }
+    .ways h1 {
+        max-width: 100%;
+        width: 40%;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        margin: 30px;
+    }
+    .ways p {
+       max-width: 100%;
+       width: 40%;
+       font-size: 12.7px;
+       margin: 30px;
+    }
+
 }
