@@ -7,11 +7,11 @@
         margin: 0px auto;
         padding: 10px 10px;
         justify-content: space-between;
+        max-width: 100%;
         
     }
     .header {
-      width: auto;
-      height: auto;
+        height: auto;
       background-color: blue;
       justify-content: space-between;
     
@@ -37,11 +37,15 @@
     }
     .icon {
         margin-left: 0;
+        max-width: 100%;
     }
     .icon p {
         font-size: 1.9vw;
         justify-content: center;
         margin: 10px;
+        max-width: 100%;
+    }
+    .invest {
         max-width: 100%;
     }
     .invest h1{
@@ -69,10 +73,13 @@
     }
     .img2 {
         margin-left: 0;
-        width: auto;
         height: auto;
-        max-width: 95%;
+        max-width: 100%;
         gap: 0;
+    }
+    .img {
+        max-width: 100%;
+        width: 87.5%;
     }
     .immg {
         display: block;
@@ -96,10 +103,11 @@
         margin-left: 0;
         margin: 0;
         display: block;
-        width: 48% !important;
+        max-width: 100%;
+        width: 100% !important;
         height: auto;
         position: relative;
-        left: -48px;
+        left: -50px;
         margin-top: 40px;
     }
     .key {
@@ -245,7 +253,7 @@
         margin-left: 0;
         margin: 10px;
         padding: 10px;
-        height: 160vw !important;
+        height: auto !important;
         margin-top: 0;
         background-color: #6404caec;
         position: relative;
@@ -271,11 +279,166 @@
         top: 0;
         font-weight: bold;
     }
-    .div-img img  {
-        width: 200px;
-        height: auto;
+    .div-img {
+        position: relative;
+        top: 12px;
+        right: 85px;
     }
-    .footer {
+    .div-img img  {
+        width: 320px;
+        height: auto;
+        justify-content: center;
+    }
+    .month {
+        max-width: 100%;
+         display: block;
+         background:  #f2f7f8;
+        padding: 0;
+        margin: 10px;
+        padding-top: 50px;
+    }
+    .monthly {
         display: block;
+    }
+    .meet h1 {
+        margin-bottom: 30px;
+        line-height: 1;
+        font-size: 34px;
+        width: 100%;
+    }
+    .meet p {
+        max-width: 100%;
+        font-size: 19px;
+    }
+    iframe {
+        margin-top: 30px;
+        max-width: 95%;
+        
+    }
+    .promo-section {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+         background-color: #f2f7f8;
+    }
+    .avatars {
+        display: none;
+    }
+    .promo-content {
+        max-width: 100%;
+        width: 100%;
+    }
+    .promo-content h1 {
+        max-width: 100%;
+        text-align: center;
+        width: 95%;
+        font-size: 36px;
+        margin-left: 10px;
+        
+        
+    }
+    .app-buttons {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 30px;
+    }
+    .app-buttons a {
+        margin-right: 0;
+    }
+    .app-buttons a:not(:first-child) {
+    margin-left: 0px;
+    margin-top: -30px;
+}
+.testimonial-card img {
+    max-width: 95%;
+    margin-left: 13px;
+    }
+    .company {
+        max-width: 100%;
+    }
+    .comp h1 {
+        font-size: 35px;
+    }
+    .comp-img img  {
+        width: 70%;
+        margin-left: 60px;
+        margin-top: 10px;
+    }
+.footer {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        background-color: white;
+    }
+    .footer-logo {
+        display: block;
+        position: relative;
+        left: -90px;
+        bottom: 30px;
+        margin-top: 0 !important;
+    }
+    .footer-logo img {
+        width: 200px;
+    }
+    .footer-link {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0;
+        justify-items: start;
+    }
+    .footer-link h4 {
+        margin-right: 20px;
+        text-align: left;
+        width: 50%;
+        position: relative;
+        left: -40px;
+    }
+    .footer-link li {
+        margin-left: -20px;
+    }
+    .footer-head:last-of-type h4 {
+        margin-left: 30px;
+    }
+    .media {
+        margin-top: 10px !important;
+        max-width: 100%;
+        position: relative;
+        right: 0;
+        margin: 17px;
+    }
+    .address p {
+        margin-right: 0;
+        margin: 17px;
+        text-align: left !important;
+        line-height: 1.4;
+    }
+    .victoria {
+        margin-left: 0;
+    }
+    .address a {
+        margin-left: 0;
+        margin: 17px;
+    }
+    .number {
+        position: relative;
+        left: 0;
+        opacity: 0.6;
+    }
+    .last {
+        max-width: 100%;
+    }
+    .last1 {
+        max-width: 100%;
+        margin-left: 0;
+        margin: 10px;
+        padding: 0;
+    }
+    .last1 p {
+        max-width: 100%;
+        font-size: 11px;
     }
 }

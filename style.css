@@ -1044,8 +1044,11 @@ iframe {
     font-size: 15px;
     color: #0c1825;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 78px;
 }
+.footer-head:last-of-type h4 {
+        margin-left: -50px;
+    }
 .address {
     width: 200px;
 }
