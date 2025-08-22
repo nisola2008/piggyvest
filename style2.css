@@ -12,7 +12,7 @@
     }
     .header {
         height: auto;
-      background-color: blue;
+      background-color:  #f2f7f8;
       justify-content: space-between;
     
     }
@@ -70,7 +70,7 @@
         max-width: 100%;
     }
     .invest h1{
-        font-size: 11.5vw !important;
+        font-size: 12vw !important;
         max-width: 100%;
         margin: 30px;
         text-align: center;
@@ -98,7 +98,7 @@
     }
     .img {
         max-width: 100%;
-        width: 87%;
+        width: 85%;
         
     }
     .immg {
@@ -116,7 +116,7 @@
     }
    
     .immg a {
-        font-size: 22px;
+        font-size: 18px;
         width: auto;
         white-space: nowrap;
         font-weight: lighter;
@@ -153,19 +153,20 @@
     }
     .del p {
         text-align: center;
+        font-size: 16px;
     }
     .del a {
         font-size: 15px;
         font-weight: bold;
         text-align: center;
         position: relative;
-        left: 70px;
+        left: 50px;
     }
     .ways {
         max-width: 100%;
         }
     .ways h1 {
-        font-size: 26px;
+        font-size: 28px;
         }
     .ways p {
         font-size: 17px;
@@ -252,10 +253,13 @@
     .diverse h1 {
         font-size: 30px;
         word-spacing: 0;
+        margin-top: auto;
+        width: 100%;
+        margin-left: 15px;
         
     }
     .diverse p {
-        font-size: 20px;
+        font-size: 18px;
         margin: 25px;
         line-height: 1.4;
         width: 100%;
@@ -295,11 +299,11 @@
     }
     .div-img {
         position: relative;
-        top: 12px;
-        right: 85px;
+        top: 9px;
+        right: 80px;
     }
     .div-img img  {
-        width: 320px;
+        width: 90%;
         height: auto;
         justify-content: center;
     }
@@ -455,4 +459,5 @@
         max-width: 100%;
         font-size: 11px;
     }
+
 }
