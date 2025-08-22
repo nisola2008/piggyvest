@@ -29,6 +29,24 @@
     }
     ul {
         display: none;
+        height: auto;
+        max-width: 100%;
+    }
+    ul li {
+        font-size: 40px;
+    }
+    ul li a {
+        font-size: 30px;
+    }
+    .auth-buttons {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column !important;
+        position: relative;
+        left: 0 !important;
+    }
+    ul .fa {
+        display: none;
     }
     .main {
         display: block;
