@@ -414,6 +414,7 @@
         width: 50%;
         position: relative;
         left: -40px;
+        font-weight: bolder;
     }
     .footer-link li {
         margin-left: -20px;
